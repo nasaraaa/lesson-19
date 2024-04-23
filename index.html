@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lesson - 19</title>
+</head>
+<body>
+    <section class="forms">
+        <form class="form" id="sign-up" action="#" method="get" novalidate>
+            <div class="input-field">
+                <label for="username">Enter user name</label>
+                <input type="text" id="username" name="username" placeholder="user name">
+                <span class="error-message" id="username-error"></span>
+            </div>
+            <div class="input-field">
+                <label for="email">Enter email</label>
+                <input type="email" id="email" name="email" placeholder="Enter email" required>
+                <span class="error-message" id="email-error"></span>
+            </div>
+            <div class="input-field">
+                <label for="personal-number">Enter personal number</label>
+                <input
+                   type="text"
+                   id="personal-number"
+                   placeholder="personal number"
+                   required
+                />
+                <span class="error-message" id="personal-number-error"></span>
+            </div>
+				<div class="input-field">
+                    <label for="mobile_number">Enter mobile number</label>
+                    <input
+                        type="mobile-number"
+                        id="mobile-number"
+                        placeholder="mobile number"
+                        required
+                    />
+                    <span class="error-message" id="mobile-number-error"></span>
+                </div>
+
+                <div class="input-field">
+                    <label for="job-description">Enter job description</label>
+                    <input
+                        type="job-description"
+                        id="job-description"
+                        placeholder="job description"
+                        maxlength="50"
+                        required
+                    />
+                    <span class="error-message" id="job-description-error"></span>
+                </div>
+
+				<div class="input-field">
+					<button type="submit">Submit</button>
+				</div>
+        </form>
+
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
